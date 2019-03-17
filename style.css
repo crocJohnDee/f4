@@ -22,42 +22,52 @@ h1,
 h3,
 a {
   font-family: "Fugaz One", cursive;
-  color: white;
+  color: #ff9200;
 }
 a {
   text-transform: capitalize;
   text-decoration: none;
 }
 p {
-  color: beige;
+  color: #d2feff;
   font-family: "Magra", sans-serif;
+  font-size: 16px;
 }
 
 img {
   border-radius: 5px;
   border: 5px beige solid;
+  box-shadow: 0 0 16px 7px black;
 }
 
 #first-curve {
-  padding: 0;
-  padding-top: 100px;
-  margin: 0;
+  z-index: -1;
+  position: absolute;
+  height: 100vw;
+  width: 100vw;
   border-bottom-left-radius: 100% 100%;
-  background-color: rgba(255, 1, 1, 0.22);
+  background-color: rgba(152, 0, 0, 0.52);
+  box-shadow: inset 0px 0px 267px 158px rgb(0, 0, 0),
+    0 0 45px 2px rgba(134, 134, 134, 0.89);
 }
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 30px;
   border-bottom: 1px black solid;
-  background-color: #f38c21;
+  background-color: rgb(40, 40, 40);
   line-height: 30px;
   text-align: center;
 }
 header p {
   margin: 0;
   word-spacing: 40px;
+  color: red;
 }
 .intro {
   text-align: center;
+  padding-top: 20px;
 }
 
 .intro p {
@@ -80,14 +90,19 @@ header p {
 .textbox {
   width: 30%;
   padding: 10px;
-  background-color: rgba(76, 103, 132, 0.33);
+  background-color: rgb(40, 40, 40);
   border-radius: 5px;
+  box-shadow: inset 0 0 19px black, 0 0 10px white;
 }
 h3 {
 }
 .textbox p {
   border-left: 1px gray solid;
   padding-left: 10px;
+}
+
+.textbox h3 {
+  color: #ff4141;
 }
 .flexcontainer p {
   text-align: left;
@@ -97,11 +112,15 @@ h3 {
   height: 350px;
 }
 #imagecontainer {
-  width: 69%;
+  width: 750px;
 }
 footer {
   text-align: center;
   height: 30px;
-  background-color: #f38c21;
+  background-color: rgb(40, 40, 40);
   line-height: 30px;
+}
+
+footer p {
+  color: #ff9200;
 }
