@@ -46,8 +46,7 @@ img {
   height: 100vw;
   width: 100%;
   border-bottom-left-radius: 100% 100%;
-  background-color: rgba(152, 0, 0, 0.52);
-  box-shadow: inset 0px 0px 267px 158px rgb(0, 0, 0), 0 0 45px 2px #fe933a;
+  box-shadow: inset 0px 0px 267px 158px rgb(0, 0, 0), 0 0 45px 2px red;
 }
 header {
   position: fixed;
